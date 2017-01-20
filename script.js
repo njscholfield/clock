@@ -38,7 +38,7 @@
 
     const date = now.getDate();
     const day = now.toLocaleString('en-us', { weekday: 'short' }).toUpperCase();
-    dateLabel.textContent = `${day} ${date}`;
+    dateLabel.textContent = day + ' ' + date;
 
     digitalTime.textContent = now.toLocaleTimeString('en-us');
   }
